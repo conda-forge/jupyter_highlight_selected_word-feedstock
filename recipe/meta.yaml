@@ -1,6 +1,6 @@
 {% set name = 'jupyter_highlight_selected_word' %}
-{% set version = '0.0.5' %}
-{% set sha256 = '39a6c1453c9d22870f37add1dad340eb758794686a4d77b09227847d0b414b0d' %}
+{% set version = '0.0.6' %}
+{% set sha256 = '7d4be1208f7b5b0c0b42b832716759afa46c80b4597739c76e4ea607474acf56' %}
 
 package:
   name: {{ name }}
@@ -33,7 +33,7 @@ about:
   summary: |
       Jupyter nbextension which enables the CodeMirror addon "Match Highlighter",
       which highlights all instances of the selected word in the current editor.
-  home: https://github.com/jfbercher/jupyter_latex_envs
+  home: https://github.com/jcb91/jupyter_highlight_selected_word
   license_file: LICENSE.txt
   license: BSD 3-clause
 
