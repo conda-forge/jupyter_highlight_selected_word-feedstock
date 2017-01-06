@@ -1,7 +1,7 @@
 About jupyter_highlight_selected_word
 =====================================
 
-Home: https://github.com/jfbercher/jupyter_latex_envs
+Home: https://github.com/jcb91/jupyter_highlight_selected_word
 
 Package license: BSD 3-clause
 
@@ -12,6 +12,18 @@ which highlights all instances of the selected word in the current editor.
 
 
 
+
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jupyter_highlight_selected_word-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jupyter_highlight_selected_word-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/jupyter_highlight_selected_word-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jupyter_highlight_selected_word-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jupyter_highlight_selected_word-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jupyter-highlight-selected-word-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_highlight_selected_word/badges/version.svg)](https://anaconda.org/conda-forge/jupyter_highlight_selected_word)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_highlight_selected_word/badges/downloads.svg)](https://anaconda.org/conda-forge/jupyter_highlight_selected_word)
 
 Installing jupyter_highlight_selected_word
 ==========================================
@@ -68,18 +80,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jupyter_highlight_selected_word-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jupyter_highlight_selected_word-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/jupyter_highlight_selected_word-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jupyter_highlight_selected_word-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jupyter_highlight_selected_word-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jupyter-highlight-selected-word-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_highlight_selected_word/badges/version.svg)](https://anaconda.org/conda-forge/jupyter_highlight_selected_word)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_highlight_selected_word/badges/downloads.svg)](https://anaconda.org/conda-forge/jupyter_highlight_selected_word)
 
 
 Updating jupyter_highlight_selected_word-feedstock
