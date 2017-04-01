@@ -7,8 +7,12 @@ Package license: BSD 3-clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Jupyter nbextension which enables the CodeMirror addon "Match Highlighter",
-which highlights all instances of the selected word in the current editor.
+Summary: Jupyter notebook extension that enables highlighting of all instances of 
+the currently-selected or cursor-adjecent word in either the current cell's 
+editor, or in the whole notebook. 
+Based on the  CodeMirror addon 
+https://codemirror.net/demo/matchhighlighter.html 
+extended to work across multiple editors.
 
 
 
