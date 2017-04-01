@@ -1,6 +1,6 @@
 {% set name = 'jupyter_highlight_selected_word' %}
-{% set version = '0.0.10' %}
-{% set sha256 = '3a386aa0f5b2b6fa6b7593b6d20833b4bc4e542380858b65bcc2d19b6330f495' %}
+{% set version = '0.0.11' %}
+{% set sha256 = '3e0ae5f27f9f9e7b2de64b65ab5bc8d77481c4b95ee95b852adc48772932465d' %}
 
 package:
   name: {{ name }}
