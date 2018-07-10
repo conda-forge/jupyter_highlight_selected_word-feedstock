@@ -20,14 +20,15 @@ extended to work across multiple editors.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jupyter_highlight_selected_word-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jupyter_highlight_selected_word-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/jupyter_highlight_selected_word-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jupyter_highlight_selected_word-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jupyter_highlight_selected_word-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jupyter-highlight-selected-word-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/jupyter_highlight_selected_word-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/jupyter_highlight_selected_word-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_highlight_selected_word/badges/version.svg)](https://anaconda.org/conda-forge/jupyter_highlight_selected_word)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_highlight_selected_word/badges/downloads.svg)](https://anaconda.org/conda-forge/jupyter_highlight_selected_word)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jupyter_highlight_selected_word-green.svg)](https://anaconda.org/conda-forge/jupyter_highlight_selected_word) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jupyter_highlight_selected_word.svg)](https://anaconda.org/conda-forge/jupyter_highlight_selected_word) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyter_highlight_selected_word.svg)](https://anaconda.org/conda-forge/jupyter_highlight_selected_word) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jupyter_highlight_selected_word.svg)](https://anaconda.org/conda-forge/jupyter_highlight_selected_word) |
 
 Installing jupyter_highlight_selected_word
 ==========================================
