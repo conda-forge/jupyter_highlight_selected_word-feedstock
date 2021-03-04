@@ -9,13 +9,11 @@ source:
   sha256: 9fa740424859a807950ca08d2bfd28a35154cd32dd6d50ac4e0950022adc0e7b
 
 build:
-  number: 1002
+  noarch: python
+  number: 1003
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
-  build:
-    - python                                 # [build_platform != target_platform]
-    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
     - python
     - pip
@@ -45,3 +43,4 @@ extra:
   recipe-maintainers:
     - jcb91
     - ocefpaf
+    - xhochy
