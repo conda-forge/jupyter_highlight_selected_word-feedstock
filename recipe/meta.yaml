@@ -9,15 +9,16 @@ source:
   sha256: 9fa740424859a807950ca08d2bfd28a35154cd32dd6d50ac4e0950022adc0e7b
 
 build:
-  number: 1002
+  noarch: python
+  number: 1003
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   host:
-    - python
+    - python >=2.7
     - pip
   run:
-    - python
+    - python >=2.7
     - setuptools
     - jupyter_contrib_core >=0.3
     - notebook >=4.0
@@ -42,3 +43,4 @@ extra:
   recipe-maintainers:
     - jcb91
     - ocefpaf
+    - xhochy
