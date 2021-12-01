@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python
     - pip
   run:
-    - python >=3.6
+    - python
     - setuptools
     - jupyter_contrib_core >=0.3
     - notebook >=4.0
