@@ -1,24 +1,28 @@
+{% set name = "jupyter_highlight_selected_word" %}
 {% set version = "0.2.0" %}
 
+
 package:
-  name: jupyter_highlight_selected_word
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/j/jupyter_highlight_selected_word/jupyter_highlight_selected_word-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyter_highlight_selected_word-{{ version }}.tar.gz
   sha256: 9fa740424859a807950ca08d2bfd28a35154cd32dd6d50ac4e0950022adc0e7b
 
 build:
-  noarch: python
-  number: 1003
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  number: 1004
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
+  build:
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
-    - python >=2.7
+    - python
     - pip
   run:
-    - python >=2.7
+    - python
     - setuptools
     - jupyter_contrib_core >=0.3
     - notebook >=4.0
@@ -26,6 +30,10 @@ requirements:
 test:
   imports:
     - jupyter_highlight_selected_word
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   summary: |
