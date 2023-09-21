@@ -23,7 +23,7 @@ requirements:
     - python >=3.7
     - setuptools
     - jupyter_contrib_core >=0.3
-    - notebook >=4.0
+    - notebook >=4.0,<7
 
 test:
   imports:
